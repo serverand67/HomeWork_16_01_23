@@ -38,8 +38,8 @@ int getCountPositive(int[] array)
     }
     return count;
 }
-int[] array = getGenerateArray(10,100,999);
-printArr(array);
-int count = getCountPositive(array);
-Console.WriteLine($"Сумма положительных чисел в массиве {array} равна {count}");
+int[] Array = getGenerateArray(10,100,999);
+printArr(Array);
+int count = getCountPositive(Array);
+Console.WriteLine($"Сумма положительных чисел в массиве равна {count}");
 
