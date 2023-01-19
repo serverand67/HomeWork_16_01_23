@@ -39,7 +39,7 @@ int getMin(int[] array)
 }
 int getMax(int[] array)
 {
-    int max = 0;
+    int max = array[0];
     for (int i = 0; i < array.Length; i++)
         {
           if (array[i] > max)
@@ -54,7 +54,7 @@ int getMaxMinDiference(int max, int min)
     int dif = max - min;
     return dif;
 }
-int[] Array = getGenerateArray(5,0,20);
+int[] Array = getGenerateArray(10,0,50);
 printArr(Array);
 int min = getMin(Array);
 Console.WriteLine($"Минимальное число массива {min}");
